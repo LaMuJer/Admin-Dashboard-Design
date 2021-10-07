@@ -253,9 +253,7 @@
         </div>
     </div>
 </div>
-<!-- content starts -->
-</div>
-        </div>
-    </section>
+<!-- content ends -->  
+
 
 <?php include "./template/footer.php";?>

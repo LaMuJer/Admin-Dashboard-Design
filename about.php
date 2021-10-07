@@ -96,39 +96,10 @@
             </div>
         </div>
     </div>
-<!-- content starts -->
-
-</div>
-        </div>
-    </section>
-
-<script>
-        let category = ["phone","computer","tv"];
-        let subCategory = [
-            {name:'Samsung' , categoryId:0},
-            {name:'Apple' , categoryId:0},
-            {name:'Dell' , categoryId:1},
-            {name:'Lenovo' , categoryId:1},
-            {name:'Sony' , categoryId:2},
-            {name:'Panosonic' , categoryId:2}
-        ];
-
-        category.map((el,ind)=>{
-            $("#cat").append(`<option value=${ind}>${el}</option>`);
-        });
-
-        jQuery.map(subCategory,(el,i)=>{
-            $('#subCat').append(`<option value="${i}" dataCategory=${el.categoryId}>${el.name}</option>`);
-        })  ;
-
-        $("#cat").on("change",()=>{
-            let currentCategoryId = $("#cat").val();
-            $("#subCat option").hide();
-            $(`[dataCategory = ${currentCategoryId}]`).show();
-        })
+<!-- content ends -->
 
 
-    </script>
+
 
 <?php include "./template/footer.php"; ?>
 

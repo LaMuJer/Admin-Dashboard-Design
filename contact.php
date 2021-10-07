@@ -521,23 +521,9 @@
         </div>
     </div>
 </div>
-<!-- content starts -->
+<!-- content ends -->
 
-<script>
-                $("#maximize").click(()=>{
-                    
-                    let current = $("#maximize").closest(".card");
-                    current.toggleClass("fullCard");
-                    if(current.hasClass("fullCard")) {
-                        $('#maximize').html(`<i class="feather-minimize-2"></i>`);
-                    } else {
-                        $('#maximize').html(`<i class="feather-maximize-2"></i>`);
-                    }
-                });
 
-                $("#example").dataTable();
-
-    </script>
 
 
 <?php include "./template/footer.php"; ?>
