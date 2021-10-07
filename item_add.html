@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./vendor/feather-icons-web/feather.css">
+    <link rel="stylesheet" href="./node_modules/@splidejs/splide/dist/css/themes/splide-skyblue.min.css">
+    <link rel="stylesheet" href="./css/app.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    
+<section class="main container-fluid">
+<div class="row">
+    <!-- sidebar starts -->
+    <div class="col-12 col-lg-2 vh-100 sidebar">
+        <div class="d-flex align-items-center justify-content-between mt-4 py-2 menuSticky">
+            <div class="">
+                <span><i class="feather-shopping-bag text-light bg-primary rounded-2 p-2 me-2"></i></span>
+                <span class="fw-bolder text-uppercase text-primary">My shop</span>
+            </div>
+            <button class="hide-sidebar-btn btn btn-light d-block d-lg-none">
+                <i class="feather-x text-primary" style="font-size: 2rem;"></i>
+            </button>
+        </div>
+        <div class="navMenu">
+            <ul>
+                <li class="menuItem mt-3">
+                    <a href="dashboard.html" class="menuItemLink " >
+                        <span>
+                            <i class=" feather-home"></i>
+                            Dashboard
+                        </span>
+                    </a>
+                </li>
+                <li class="menuSpacer"></li>
+
+                <li class="menuTitle">
+                    <span>Test</span>
+                </li>
+                <li class="menuItem">
+                    <a href="#" class="menuItemLink">
+                        <span>
+                            <i class=" feather-plus-circle"></i>
+                            Add Test
+                        </span>
+                    </a>
+                </li><li class="menuItem">
+                    <a href="itemList.html" class="menuItemLink">
+                        <span>
+                            <i class="feather-list"></i>
+                            Item Test
+                        </span>
+                        <span class="badge bg-white shadow-sm text-primary p-2 rounded-pill">23</span>
+                    </a>
+                </li>
+                <li class="menuSpacer"></li>
+
+                <li class="menuTitle">
+                    <span>Test</span>
+                </li>
+                <li class="menuItem">
+                    <a href="#" class="menuItemLink">
+                        <span>
+                            <i class=" feather-plus-circle"></i>
+                            Add Test
+                        </span>
+                    </a>
+                </li><li class="menuItem">
+                    <a href="itemList.html" class="menuItemLink">
+                        <span>
+                            <i class="feather-list"></i>
+                            Item Test
+                        </span>
+                        <span class="badge bg-white shadow-sm text-primary p-2 rounded-pill">23</span>
+                    </a>
+                </li>
+                <li class="menuSpacer"></li>
+                <li class="menuTitle">
+                    <span>Test</span>
+                </li>
+                <li class="menuItem">
+                    <a href="#" class="menuItemLink">
+                        <span>
+                            <i class=" feather-plus-circle"></i>
+                            Add Test
+                        </span>
+                    </a>
+                </li><li class="menuItem">
+                    <a href="itemList.html" class="menuItemLink">
+                        <span>
+                            <i class="feather-list"></i>
+                            Item Test
+                        </span>
+                        <span class="badge bg-white shadow-sm text-primary p-2 rounded-pill">23</span>
+                    </a>
+                </li>
+                <li class="menuSpacer"></li>
+                
+                <li class="menuTitle">
+                    <span>Test</span>
+                </li>
+                <li class="menuItem">
+                    <a href="#" class="menuItemLink">
+                        <span>
+                            <i class=" feather-plus-circle"></i>
+                            Add Test
+                        </span>
+                    </a>
+                </li><li class="menuItem">
+                    <a href="itemList.html" class="menuItemLink">
+                        <span>
+                            <i class="feather-list"></i>
+                            Item Test
+                        </span>
+                        <span class="badge bg-white shadow-sm text-primary p-2 rounded-pill">23</span>
+                    </a>
+                </li>
+                <li class="menuSpacer"></li>
+
+                <li class="menuTitle">
+                    <span>Test</span>
+                </li>
+                <li class="menuItem">
+                    <a href="#" class="menuItemLink">
+                        <span>
+                            <i class=" feather-plus-circle"></i>
+                            Add Test
+                        </span>
+                    </a>
+                </li><li class="menuItem">
+                    <a href="itemList.html" class="menuItemLink">
+                        <span>
+                            <i class="feather-list"></i>
+                            Item Test
+                        </span>
+                        <span class="badge bg-white shadow-sm text-primary p-2 rounded-pill">23</span>
+                    </a>
+                </li>
+                <li class="menuSpacer"></li>
+
+                <li class="menuTitle">
+                    <span>Manage</span>
+                </li>
+                <li class="menuItem">
+                    <a href="item_add.html" class="menuItemLink active">
+                        <span>
+                            <i class=" feather-plus-circle"></i>
+                            Add Item
+                        </span>
+                    </a>
+                </li><li class="menuItem">
+                    <a href="itemList.html" class="menuItemLink">
+                        <span>
+                            <i class="feather-list"></i>
+                            Item List
+                        </span>
+                        <span class="badge bg-white shadow-sm text-primary p-2 rounded-pill">23</span>
+                    </a>
+                </li>
+                <li class="menuSpacer"></li>
+            </ul>
+            
+        </div>
+    </div>
+    <!-- sidebar ends -->
+
+    <div class="col-12 col-lg-10 vh-100 py-3 content">
+
+        <!-- header starts -->
+        <div class="row header mb-4">
+            <div class="col-12">
+                <div class="p-2 bg-primary rounded d-flex justify-content-between align-items-center">
+                    <button class="show-sidebar-btn btn btn-primary d-block d-lg-none">
+                        <i class="feather-menu text-light" style="font-size: 2rem;"></i>
+                    </button>
+                    <form action="#" class="d-flex align-content-center form-check-inline">
+                        <input type="text" class="form-control me-2 d-none d-lg-block">
+                        <button class="btn btn-light d-none d-lg-block">
+                            <i class="feather-search text-primary"></i>
+                        </button>
+                    </form>
+                    <div class="dropdown">
+                        <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="./img/user/avatar1.jpg" alt="" class="mr-2 shadow">
+                            Hsu Win Lat
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Logout</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- header ends -->
+
+<!-- content starts -->
+    <div class="row  p-1">
+        <div class="col-12">
+            <div class="">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="dashboard.html">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Item</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 col-xl-8">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <h4 class="mb-0">
+                            <i class="feather-plus-circle text-primary "></i>Add Item
+                        </h4>
+                        <a href="itemList.html" class="btn btn-outline-primary">
+                            <i class="feather-list"></i>
+                        </a>
+                    </div>
+
+                    <hr>
+
+                    <form action="#">
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <div class="mb-3">
+                                    <label for="photo" class="form-label">Photo Upload</label>
+                                    <i class="feather-info" type="right" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="Only support jpg and png">
+                                    </i> 
+                                    <input type="file" id="photo" name="photo" class="form-control p-1" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="name" class="form-label">Item Name </label>
+                                    <input type="text" class="form-control" id="name" name="name">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="type" class="form-label">Type</label>
+                                    <select name="type" id="type" class="form-select">
+                                        <option value="0">Dry Food</option>
+                                        <option value="1">Food</option>
+                                    </select>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="cat" class="form-label">Category</label>
+                                    <select name="cat" id="cat" class="form-select">
+                                        <option value="" selected disabled>Select Main Category</option>
+                                    </select>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="subCat" class="form-label">Sub Category</label>
+                                    <select name="subCat" id="subCat" class="form-select">
+                                        <option value="" selected disabled>Select Sub Category</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="row mb-3">
+                                    <div class="col-6">
+                                        <label for="quantity" class="form-label">Item Quantity</label>
+                                        <input type="number" name="quantity" id="quantity" class="form-control">
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="">
+                                            <label for="unit" class=" form-label">Unit</label>
+                                            <select name="unit" id="unit" class=" form-select">
+                                                <option value="0">khu</option>
+                                                <option value="1">boo</option>
+                                                <option value="2">kwt</option>
+                                                <option value="3">tone</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                        <label for="price" class="form-label">Price</label>
+                                        <input type="number" name="price" id="price" class="form-control">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="des" class="form-label">Description</label>
+                                    <textarea type="text" name="des" id="des" rows="8" class="form-control"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                        <button class="btn btn-primary">Add Item</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- content starts -->
+            </div>
+        </div>
+    </section>
+
+
+    <script src="./vendor/jquery-3.3.1.min.js" ></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./vendor/way_point/jquery.waypoints.js"></script>
+    <script src="./js/app.js"></script>
+
+    <script>
+        let category = ["phone","computer","tv"];
+        let subCategory = [
+            {name:'Samsung' , categoryId:0},
+            {name:'Apple' , categoryId:0},
+            {name:'Dell' , categoryId:1},
+            {name:'Lenovo' , categoryId:1},
+            {name:'Sony' , categoryId:2},
+            {name:'Panosonic' , categoryId:2}
+        ];
+
+        category.map((el,ind)=>{
+            $("#cat").append(`<option value=${ind}>${el}</option>`);
+        });
+
+        jQuery.map(subCategory,(el,i)=>{
+            $('#subCat').append(`<option value="${i}" dataCategory=${el.categoryId}>${el.name}</option>`);
+        })  ;
+
+        $("#cat").on("change",()=>{
+            let currentCategoryId = $("#cat").val();
+            $("#subCat option").hide();
+            $(`[dataCategory = ${currentCategoryId}]`).show();
+        })
+
+
+    </script>
+</body>
+</html>

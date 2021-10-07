@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Akronim&display=swap');
+
+:root {
+    --soft-color : #f1f1f1;
+}
+/* menu sidebar starts */
+.menuSticky {
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+}
+.navMenu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menuTitle{
+    padding: 10px 0;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: #949494;
+}
+.menuItem{
+    transition: .5s;
+}
+.menuItem:hover{
+    background-color: #e7e7e7 ;
+    border-radius: .25rem;
+}
+.menuItemLink{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: .25rem;
+}
+.menuItemLink:hover {
+    background-color: #e7e7e7;
+    border-radius: .25rem;
+}
+.menuItemLink.active {
+    background-color: #0d6efd;
+    color: #fff;
+}
+.menuSpacer{
+    padding: 10px 0;
+}
+/* menu sidebar ends */
+
+.content {
+    background-color: var(--soft-color);
+    overflow: scroll;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075) inset;
+}
+.header {
+    position: sticky;
+    top: 0.2rem;
+    z-index: 2000;
+}
+.dropdown img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.sidebar {
+    overflow: scroll;
+}
+.show-sidebar-btn {
+    cursor: pointer;
+}
+
+.card {
+    border: none;
+}
+.status-card {
+    transition: 0.5s;
+}
+.status-card:hover {
+    transform: translateY(-5px);
+}
+.status-card:active {
+    transform: scale(1.07);
+}
+
+.ov-img {
+    margin-left: -20px;
+}
+
+/* items start */
+.item-card {
+    margin-top: -100px;
+}
+
+.item-card-img {
+    height: 200px;
+    width: 150px;
+}
+.progress-bar {
+    background: hsla(11, 82%, 87%, 1);
+
+    background: linear-gradient(90deg, hsla(11, 82%, 87%, 1) 0%, hsla(299, 85%, 90%, 1) 100%);
+    
+    background: -moz-linear-gradient(90deg, hsla(11, 82%, 87%, 1) 0%, hsla(299, 85%, 90%, 1) 100%);
+    
+    background: -webkit-linear-gradient(90deg, hsla(11, 82%, 87%, 1) 0%, hsla(299, 85%, 90%, 1) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F9CDC3", endColorstr="#FACEFB", GradientType=1 );
+}
+.splide__arrow {
+    display: none;
+}
+.splide__pagination{
+    margin-bottom: -20px !important;
+}
+.splide__pagination__page.is-active {
+    background-color: #023047 !important;
+}
+a {
+    text-decoration: none !important;
+}
+.pink-text{
+    color: #ff1b6b;
+}
+tr{
+    transition: .5s;
+    cursor: pointer;
+}
+table tr:active{
+    transform: scale(1.09);
+}
+.fullCard {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 2005;
+    overflow: scroll;
+}
+@media screen and (max-width: 780px) {
+    .sidebar {
+        position: fixed;
+        width: 300px;
+        background-color: #fff;
+        z-index: 2001;
+        display: block !important;
+        margin-left: -100%;
+    }
+    .item-card {
+        margin-top: 100px;
+    }
+}
